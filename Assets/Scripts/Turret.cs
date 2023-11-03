@@ -27,7 +27,7 @@ public class Turret : MonoBehaviour
 
     IEnumerator Shoot()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         GameObject newObject = Instantiate(Bullet, transform.position, Quaternion.identity);
         newObject.SetActive(true);
         StartCoroutine(Shoot());

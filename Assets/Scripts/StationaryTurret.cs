@@ -13,7 +13,7 @@ public class StationaryTurret : MonoBehaviour
     }
     IEnumerator Shoot()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         GameObject newObject = Instantiate(Bullet, transform.position, Quaternion.identity);
         newObject.SetActive(true);
         StartCoroutine(Shoot());

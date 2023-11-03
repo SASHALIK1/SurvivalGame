@@ -24872,7 +24872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1729496091}
   particles: {fileID: 1999794954}
-  moveSpeed: 3.5
+  moveSpeed: 6
 --- !u!224 &1156859588 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8170153791668043268, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
