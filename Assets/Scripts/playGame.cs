@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class playGame : MonoBehaviour
 {
+    public bool NeedButton;
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !NeedButton)
         {
             Game();
         }
